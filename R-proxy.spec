@@ -1,21 +1,21 @@
-%bcond_without bootstrap
+%bcond_with bootstrap
 %global packname  proxy
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
 Version:          0.4_7
-Release:          1
+Release:          2
 Summary:          Distance and Similarity Measures
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.4-7.tar.gz
 %if %{without bootstrap}
-Requires:         R-cba 
+Requires:         R-cba
 %endif
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
 %if %{without bootstrap}
-BuildRequires:    R-cba 
+BuildRequires:    R-cba
 %endif
 
 %description
