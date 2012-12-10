@@ -4,7 +4,7 @@
 
 Name:             R-%{packname}
 Version:          0.4_7
-Release:          2
+Release:          3
 Summary:          Distance and Similarity Measures
 Group:            Sciences/Mathematics
 License:          GPL-2
@@ -50,3 +50,15 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
+
+%changelog
+* Wed Feb 22 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.4_7-2
++ Revision: 778910
+- Rebuild with proper dependencies
+
+* Mon Feb 20 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.4_7-1
++ Revision: 777855
+- Import R-proxy
+- Import R-proxy
+
