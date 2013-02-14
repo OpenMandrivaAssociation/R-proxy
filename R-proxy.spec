@@ -3,13 +3,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.4_7
-Release:          3
+Version:          0.4.9
+Release:          1
 Summary:          Distance and Similarity Measures
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.4-7.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/proxy_0.4-9.tar.gz
 %if %{without bootstrap}
 Requires:         R-cba
 %endif
@@ -50,15 +50,3 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
-
-
-%changelog
-* Wed Feb 22 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.4_7-2
-+ Revision: 778910
-- Rebuild with proper dependencies
-
-* Mon Feb 20 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.4_7-1
-+ Revision: 777855
-- Import R-proxy
-- Import R-proxy
-
