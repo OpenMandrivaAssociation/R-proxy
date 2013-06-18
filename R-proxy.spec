@@ -4,7 +4,7 @@
 
 Name:             R-%{packname}
 Version:          0.4.9
-Release:          1
+Release:          2
 Summary:          Distance and Similarity Measures
 Group:            Sciences/Mathematics
 License:          GPL-2
