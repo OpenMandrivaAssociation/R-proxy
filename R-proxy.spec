@@ -3,13 +3,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.4.9
-Release:          2
+Version:          0.4.10
+Release:          1
 Summary:          Distance and Similarity Measures
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/proxy_0.4-9.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/proxy_0.4-10.tar.gz
 %if %{without bootstrap}
 Requires:         R-cba
 %endif
