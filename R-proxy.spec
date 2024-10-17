@@ -8,7 +8,7 @@ Release:          1
 Summary:          Distance and Similarity Measures
 Group:            Sciences/Mathematics
 License:          GPL-2
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/proxy_0.4-10.tar.gz
 %if %{without bootstrap}
 Requires:         R-cba
